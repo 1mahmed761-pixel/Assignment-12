@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-12</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+             font-family: sans-serif;
+        }
+        body{
+            margin: 0;
+        }
+        .container-01{
+            padding: 10px 50px;
+            background-color:  #2b2e34;
+            color: white;
+            justify-content: space-between;
+            display: flex;
+            font-weight: 600;
+            font-family: sans-serif;
+            font-size: smaller;
+        }
+        .box-01{
+            margin-left: 1vw;
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            
+        }
+         .box-02 {
+            display: flex;
+            gap: 15px; 
+            color: #ff9d00;
+            margin-right: 10vw;
+        }
+        #O1{
+            color: #ff9d00;
+        }
+         #O2{
+            color: #ff9d00;
+        }
+        .container-02{
+            display: flex;
+           justify-content: space-between;
+           align-items: center;
+           background-color: #3a3e47;
+           height: 70px;
+        }
+        #O3{
+           color: #2b2e34;
+           font-size: medium;
+           transform: skewX(-20deg);
+            margin-left: 20px;
+        }
+        .box-O3{
+             background-color: #ff9d00;
+            display: flex;
+            align-items: center;
+            margin-right: 20px;
+            transform: skewX(20deg);
+            border: 1px solid black;
+            height: 100%;
+            margin-left: -20px;
+            padding-left: 90px;
+            padding-right: 40px;
+            
+        }
+        .box-O4 {
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+        #O4{
+            height: 100%;
+            background-color: #ff9d00;
+            color: #2b2e34;
+            transform: skewX(15deg);
+            padding: 0 10px;
+        }
+        .Home{
+            display: inline-block;
+            transform: skewX(-15deg);
+            
+        }
+        
+        ul{
+            display: flex;
+            gap: 30px;
+            font-size: small;
+            height: 100%;
+           
+        }
+        li{
+            list-style: none;
+            color: white;
+             display: flex;
+            text-align: center;
+            align-items: center;
+            
+        }
+
+       
+              .hero-section {
+            width: 100vw;
+            height: 550px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: url('images/bg_1.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-color: rgba(43, 46, 52, 0.75);
+            background-blend-mode: overlay;
+            text-align: center;
+        }
+        .hero-span1 {
+            color: #ff9d00;
+            font-size: 14px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+        .hero-h1 {
+            color: white;
+            font-size: 45px;
+            font-weight: bold;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .hero-span2 {
+            color: #ff9d00;
+        }
+        .hero-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+        .hero-buttons button {
+            padding: 15px 35px;
+            font-size: 13px;
+            font-weight: bold;
+            cursor: pointer;
+            border: none;
+        }
+        .hero-buttons button:first-child {
+            background-color: #ff9d00;
+            color: #2b2e34;
+        }
+        .hero-buttons button:last-child {
+            background-color: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container-01">
+        <div class="box-01">
+            <div>
+            <span id="O1">Free Call:</span> <span>+1 415 555 0142</span>
+            </div>
+            <div>
+            <span id="O2">Email Address:</span> <span>info@example.com</span>
+            </div>
+        </div>
+        <div class="box-02">
+            <span><i class="fa-brands fa-x-twitter"></i></span>
+            <span><i class="fa-brands fa-facebook"></i></span>
+            <span><i class="fa-brands fa-instagram"></i></span>
+        </div>
+        </div>
+    </nav>
+    <div class="container-02">
+        <div class="box-O3">
+            <h1 id="O3">BUILDREAM</h1>
+        </div>
+        <div class="box-O4">
+            <ul>
+                <li id="O4"> <span class="Home">HOME</span></li>
+                <li>ABOUT</li>
+                <li>SERVICES</li>
+                <li>PROJECTS</li>
+                <li>PRICING</li>
+                <li>BLOG</li>
+                <li>CONTENT</li>
+            </ul>
+        </div>
+    </div>
+    
+    <section class="hero-section">
+        <div class="container-03">
+
+            <span class="hero-span1">--- SINCE 1982 ---</span>
+            <h1 class="hero-h1">We Will Be <span class="hero-span2">Happy</span> To Take Care Of Your Work</h1>
+            <div class="hero-buttons">
+                <button>CONTACT US <i class="fa-solid fa-arrow-right" style="margin-left: 8px;"></i></button>
+                <button>REQUEST A QUOTE <i class="fa-solid fa-arrow-right" style="margin-left: 8px;"></i></button>
+            </div>
+        </div>
+
+    </section>
+
+</body>
+</html>
